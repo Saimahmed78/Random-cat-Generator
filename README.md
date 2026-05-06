@@ -1,8 +1,8 @@
-# 🐱 Random Cat Viewer
+# Random Cat Viewer
 
 A React-based app that fetches and displays a random cat breed on every click — built to practice component architecture, state management, and hooks.
 
-## 🚀 Features
+## Features
 
 - Fetches a random cat breed from [FreeAPI](https://freeapi.app/) on load and on demand
 - Displays breed image, origin, lifespan, temperament, and dog-friendliness
@@ -10,13 +10,13 @@ A React-based app that fetches and displays a random cat breed on every click �
 - Wikipedia link per breed
 - Loading state between fetches
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React.js** — `useState`, `useEffect`
 - **Vanilla CSS-in-JS** — inline styles with a centralized `styles` object
 - **FreeAPI** — public cats data API
 
-## 📦 Getting Started
+##  Getting Started
 
 ```bash
 # Clone the repository
@@ -32,7 +32,7 @@ npm install
 npm run dev
 ```
 
-## 🔌 API
+##  API
 
 Data is fetched from:
 
@@ -42,7 +42,7 @@ GET https://api.freeapi.app/api/v1/public/cats/cat/random
 
 No API key required.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -51,7 +51,7 @@ src/
 └── assets/        # Static assets
 ```
 
-## 🧠 Concepts Practiced
+##  Concepts Practiced
 
 - `useEffect` for fetching data on initial mount
 - `useState` for managing loading and data states
@@ -60,7 +60,7 @@ src/
 - Dynamic star ratings and animated progress bars
 
 
-## 🖼️ Preview
+## Preview
 
 > Clean card UI displaying a random cat breed with stats, energy bar, and a Wikipedia link.
 ![App Preview](public/image.png)
