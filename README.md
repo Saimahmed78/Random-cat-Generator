@@ -63,6 +63,7 @@ src/
 ## 🖼️ Preview
 
 > Clean card UI displaying a random cat breed with stats, energy bar, and a Wikipedia link.
+![App Preview](public/image.png)
 
 ## 👤 Author
 
